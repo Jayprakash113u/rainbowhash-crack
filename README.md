@@ -1,10 +1,10 @@
-# RainbowHash 
-	RainbowHash is a Great Tool For Cracking or Recovering Hashed password.
-	RainbowHash Supports multiple Hash Such as md5, sha1, sha223, sha3_384, blake2s, blake2b, sha384, sha3_224, sha512, sha256, sha3_256, ntlm.
+# RainbowHash&Crack 
+	RainbowHash&Crack is a Great Tool For Cracking or Recovering Hashed password.
+	RainbowHash&Crack Supports multiple Hash Such as md5, sha1, sha223, sha3_384, blake2s, blake2b, sha384, sha3_224, sha512, sha256, sha3_256, ntlm.
 	It Generates Rainbow Table and build a Sqlite3 Database in Current Directory and Match Hash With Rainbow Table Hashes.
-	RainbowHash also Supports Prepend and Append Salt Value.
-	RainbowHash can be used as Intractive Mode awa Single Lineer command
-	RainbowHash directly recover Matched Hash from Rainbow Table Database whis is created inside Local Directory (easy to share)
+	RainbowHash&Crack also Supports Prepend and Append Salt Value.
+	RainbowHash&Crack can be used as Intractive Mode awa Single Lineer command
+	RainbowHash&Crack directly recover Matched Hash from Rainbow Table Database whis is created inside Local Directory (easy to share)
 
 	No need to Specify Hash Alogorithem type.
 	No need to Make Rainbow table of same word or file anymore.
@@ -12,9 +12,9 @@
 # Usage
 # Intractive Mode Usage
 
-	root@starshine:~/RainbowHash# python3.7 RainbowHash.py
+	root@StarShine:~/RainbowHash&Crack# python3.7 RainbowHash&Crack.py
 
-	RainbowHash is a Great Tool For Cracking Hashes one at a time.
+	RainbowHash&Crack is a Great Tool For Cracking Hashes one at a time.
 	It Supports Hash such as md5, sha1, sha223, sha3_384, sha384, sha3_224, sha512, sha256, sha3_256, blake2s, blake2b, ntlm 
 
 	Rhash > help
@@ -24,11 +24,11 @@
 	     exit :    Exit CLI
 	     clear:    Clear the Screen
 	     word :    Single word to genrate Rainbow Table
-	     Example : File /root/RainbowHash/pass
+	     Example : File /root/RainbowHash&Crack/pass
 
 # To Creating rainbow table
 
-	Rhash > file /root/RainbowHash/pass
+	Rhash > file /root/RainbowHash&Crack/pass
 	Rhash > file > run
 	WORD:  10
 
@@ -86,12 +86,12 @@
 
 # To Show Help options
 
-	root@starshine:~/RainbowHash# python3.7 RainbowHash.py -h
+	root@StarShine:~/RainbowHash&Crack# python3.7 RainbowHash&Crack.py -h
 	 
-	usage: RainbowHash.py [-h] [-f FILE] [-p PRE] [-a APP] [-H HASH] [-v]
+	usage: RainbowHash&Crack.py [-h] [-f FILE] [-p PRE] [-a APP] [-H HASH] [-v]
 	                      [-w WORD]
 
-	RainbowHash is Great Tool for recover Hashe.It Supports Hash such as md5,
+	RainbowHash&Crack is Great Tool for recover Hashe.It Supports Hash such as md5,
 	sha1, sha256, sha512, and many more. It is alsocapable of genrate Rainbow
 	Table with Wordlist file as input.
 
@@ -108,19 +108,19 @@
 
 # To Creating rainbow table without repetation
 
-	root@starshine:~/RainbowHash# python3.7 RainbowHash.py -v -f /root/RainbowHash/pass -c
+	root@StarShine:~/RainbowHash&Crack# python3.7 RainbowHash&Crack.py -v -f /root/RainbowHash&Crack/pass -c
 
 # To Append Salt Value into ranbow table
 
-	root@starshine:~/RainbowHash# python3.7 RainbowHash.py -a salt_value -v -f /root/RainbowHash/pass
+	root@StarShine:~/RainbowHash&Crack# python3.7 RainbowHash&Crack.py -a salt_value -v -f /root/RainbowHash&Crack/pass
 
 # To Prepend Salt Value into ranbow table
 
-	root@starshine:~/RainbowHash# python3.7 RainbowHash.py -p salt_value -v -f /root/RainbowHash/pass
+	root@StarShine:~/RainbowHash&Crack# python3.7 RainbowHash&Crack.py -p salt_value -v -f /root/RainbowHash&Crack/pass
 
 # To For Generating Hash Of A Particular Word
 
-	root@starshine:~/RainbowHash# python3.7 RainbowHash.py -w RainbowMe
+	root@StarShine:~/RainbowHash&Crack# python3.7 RainbowHash&Crack.py -w RainbowMe
 
 	md5     : f9defaa0ffd24ac8258f6abcf91ad8d9
 
@@ -154,7 +154,7 @@
 
 # To Cracking Hash 
 
-	root@starshine:~/RainbowHash# python3.7 RainbowHash.py -H f9defaa0ffd24ac8258f6abcf91ad8d9 
+	root@StarShine:~/RainbowHash&Crack# python3.7 RainbowHash&Crack.py -H f9defaa0ffd24ac8258f6abcf91ad8d9 
 
     Detected ALGORITHM (md5) :  f9defaa0ffd24ac8258f6abcf91ad8d9 
 	word :  RainbowMe
